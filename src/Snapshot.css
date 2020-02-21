@@ -1,0 +1,32 @@
+.tile {
+    align-items: stretch;
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-height: min-content; }
+    .tile.is-ancestor { 
+      margin-left: 0.55rem !important;
+      margin-right: 0.55rem !important;
+      margin-top: 0.55rem !important; }
+      .tile.is-ancestor:last-child {
+        margin-bottom: 0.55rem !important; }
+      .tile.is-ancestor:not(:last-child) {
+        margin-bottom: 0.55rem !important; }
+    .tile.is-child {
+      margin: 0 !important; }
+    .tile.is-parent {
+      padding: 0.25rem !important; }
+    .tile.is-vertical {
+      flex-direction: column; }
+      .tile.is-vertical > .tile.is-child:not(:last-child) {
+        margin-bottom: -0.5rem !important; }
+
+
+.box {
+    background-color: #fffeff;
+    border-radius: 2px !important;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+    color: #4a4a4a;
+    display: block;
+    padding: 1.25rem; }

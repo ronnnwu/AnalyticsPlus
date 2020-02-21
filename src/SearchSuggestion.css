@@ -1,0 +1,14 @@
+.span {
+    float: left; 
+    margin-left: 5px; 
+    padding: 5px; 
+    font-size: 12px; 
+    color: rgb(89, 83, 86); 
+    font-weight: 500;
+    
+}
+
+.span:hover {
+    background-color: rgb(245, 244, 245);
+}
+ 

@@ -1,0 +1,14 @@
+.is-divider {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc; 
+    padding: 0;
+}
+
+.subchoice:hover {
+    background-color: #01b6f2 !important;
+    opacity: 0.5  !important; 
+    border-top: 1px solid #0145f2 !important; 
+    border-bottom: 1px solid  #0145f2  !important;
+}

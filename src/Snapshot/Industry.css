@@ -1,0 +1,6 @@
+.header{ 
+    background: #cfcecf;
+     background: linear-gradient(-150deg,  #cfcecf 0%,#cfcecf 50%,#cfcecf,#cfcecf 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfcecf', endColorstr='#cfcecf',GradientType=0 );
+
+}
